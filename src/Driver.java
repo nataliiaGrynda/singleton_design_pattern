@@ -12,7 +12,6 @@ public class Driver {
     public static Driver getDriver(){
         if(driver == null){
             //A new object will be instantiated only if the driver is null
-            //This block of code can be used to set driver in different shapes using switch case statements
             driver = new Driver();
         }
         return driver;

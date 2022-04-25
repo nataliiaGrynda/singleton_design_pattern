@@ -3,9 +3,9 @@ public class DriverTest {
 
         //Driver driver1 = new Driver(); // compiler error as constructor is private
 
-        //Driver driver2 = Driver.driver; // compiler error as instance variables is private
+        //Driver driver2 = Driver.driver; // compiler error as instance variable is private
 
-        //Only way to access the driver instance is through public getter method
+        //Only way to access the driver instance is through the public getter method
         Driver driver3 = Driver.getDriver();
         Driver driver4 = Driver.getDriver();
         Driver driver5 = Driver.getDriver();
