@@ -7,7 +7,6 @@ public class Driver {
     private Driver(){
 
     }
-
     //public getter method is the single access point to get Driver object, and it also ensures a second object is not getting instantiated
     public static Driver getDriver(){
         if(driver == null){
@@ -15,5 +14,7 @@ public class Driver {
             driver = new Driver();
         }
         return driver;
+        //it's called singleton
+
     }
 }
